@@ -36,19 +36,19 @@ const b = 10;
 const c = 7;
 
 if (a > b && a > c) {
-  console.log("The is largest number is", a);
+  console.log(a);
 } else if (b > a && b > c) {
-  console.log("The is largest number is", b);
+  console.log(b);
 } else {
-  console.log("The largest number is", c);
+  console.log(c);
 }
 
 if (int1 > int2 && int1 > int3) {
-  console.log("The is largest number is", int1);
+  console.log(int1);
 } else if (int2 > int1 && int2 > int3) {
-  console.log("The is largest number is", int2);
+  console.log(int2);
 } else {
-  console.log("The largest number is", int3);
+  console.log(int3);
 }
 
 console.log("----------------------------------");
